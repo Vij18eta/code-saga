@@ -1,0 +1,13 @@
+def_init_(self,value):
+   self.value=value
+   self.left = None
+   self.right= None
+
+root=TreeNode(1)
+# Creating nodes
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
